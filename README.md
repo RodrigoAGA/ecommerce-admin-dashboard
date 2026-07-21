@@ -2,21 +2,23 @@
 
 Proyecto desarrollado para el curso de **Programación Web | Universidad de Lima**.
 
-Panel de administración para una tienda en línea, construido con React y Vite. Permite gestionar pedidos, usuarios y catálogo de productos desde una interfaz de administrador.
+Panel de administración para una tienda en línea, construido con React y Vite. Permite gestionar pedidos, usuarios y catálogo de productos desde una interfaz de administrador, además del flujo de compra del lado del cliente.
+
+## ⚠️ Alcance del proyecto
+
+Este es un **prototipo de frontend**: los datos (productos, órdenes, usuarios) se simulan con archivos JSON estáticos en `public/data/`, no hay un backend ni base de datos real conectados.
 
 ## Funcionalidades
 
-- Gestión y detalle de pedidos (`AdminOrders`, `AdminOrderDetail`)
-- Gestión y detalle de usuarios (`AdminUsers`, `AdminUserDetail`)
-- Catálogo de productos con datos simulados (JSON)
-- Carrito de compras
+- **Cliente:** catálogo, carrito, checkout, registro, recuperación de contraseña
+- **Admin — productos:** dashboard, agregar y listar productos
+- **Admin — órdenes y usuarios:** listado y detalle de órdenes, listado y detalle de usuarios
 
 ## Stack
 
 - **Frontend:** React + Vite
-- **Estilos:** CSS
-- **Datos:** JSON simulado (productos, órdenes, usuarios, series)
+- **Datos:** JSON simulado
 
 ## Contexto académico
 
-Proyecto individual/grupal del curso de Programación Web, enfocado en el desarrollo de interfaces administrativas con React.
+Proyecto grupal del curso de Programación Web, con funcionalidades divididas por integrante del equipo. El código fue reorganizado en carpetas por funcionalidad (`cliente/`, `admin-productos/`, `admin-ordenes-usuarios/`) para facilitar su lectura.
