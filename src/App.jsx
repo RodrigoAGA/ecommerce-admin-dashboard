@@ -6,11 +6,11 @@ import PedidoCompleto from "./components/PedidoCompleto"
 import Detalle from "./components/Detalle"
 import Busqueda from "./components/Busqueda"
 // Componentes alumno 4
-import ListadoSeries from "./components/Alumno4/ListadoSeries"
-import DetalleOrden from "./components/Alumno4/DetalleOrden"
-import DatosRegistroUsuario from "./components/Alumno4/DatosRegistroUsuario"
-import CambiarContrasena from "./components/Alumno4/CambiarContrasena"
-import AgregarSerie from "./components/Alumno4/AgregarSerie"
+import ListadoSeries from "./components/cliente/ListadoSeries"
+import DetalleOrden from "./components/cliente/DetalleOrden"
+import DatosRegistroUsuario from "./components/cliente/DatosRegistroUsuario"
+import CambiarContrasena from "./components/cliente/CambiarContrasena"
+import AgregarSerie from "./components/cliente/AgregarSerie"
 //
 
 import Formulario from "./components/Formulario"
@@ -18,15 +18,15 @@ import Registro from "./components/Registro"
 import Recuperar from "./components/Recuperar"
 
 // Componentes de alumno 5
-import AdminDashboard from './components/alumno5/AdminDashboard'
-import AdminAgregarProductos from "./components/alumno5/AdminAgregarProductos"
-import AdminListaProductos from "./components/alumno5/AdminListaProductos"
+import AdminDashboard from './components/admin-productos/AdminDashboard'
+import AdminAgregarProductos from "./components/admin-productos/AdminAgregarProductos"
+import AdminListaProductos from "./components/admin-productos/AdminListaProductos"
 
 // Componentes de alumno 6
-import ListaUsuarios from "./components/Alumno6/ListaUsuarios";
-import DetalleUsuarioAdmin from "./components/Alumno6/DetalleUsuarioAdmin";
-import ListadoOrdenesAdmin from "./components/Alumno6/ListadoOrdenesAdmin";
-import DetalleOrdenAdmin from "./components/Alumno6/DetalleOrdenAdmin";
+import ListaUsuarios from "./components/admin-ordenes-usuarios/ListaUsuarios";
+import DetalleUsuarioAdmin from "./components/admin-ordenes-usuarios/DetalleUsuarioAdmin";
+import ListadoOrdenesAdmin from "./components/admin-ordenes-usuarios/ListadoOrdenesAdmin";
+import DetalleOrdenAdmin from "./components/admin-ordenes-usuarios/DetalleOrdenAdmin";
 
 function App() {
   return (
