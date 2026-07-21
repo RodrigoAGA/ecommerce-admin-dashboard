@@ -1,8 +1,22 @@
-# React + Vite
+# Ecommerce Admin Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyecto desarrollado para el curso de **Programación Web | Universidad de Lima**.
 
-Currently, two official plugins are available:
+Panel de administración para una tienda en línea, construido con React y Vite. Permite gestionar pedidos, usuarios y catálogo de productos desde una interfaz de administrador.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Funcionalidades
+
+- Gestión y detalle de pedidos (`AdminOrders`, `AdminOrderDetail`)
+- Gestión y detalle de usuarios (`AdminUsers`, `AdminUserDetail`)
+- Catálogo de productos con datos simulados (JSON)
+- Carrito de compras
+
+## Stack
+
+- **Frontend:** React + Vite
+- **Estilos:** CSS
+- **Datos:** JSON simulado (productos, órdenes, usuarios, series)
+
+## Contexto académico
+
+Proyecto individual/grupal del curso de Programación Web, enfocado en el desarrollo de interfaces administrativas con React.
